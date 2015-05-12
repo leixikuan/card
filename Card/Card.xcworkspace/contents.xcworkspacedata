@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:ios7&#x5f00;&#x53d1;ppt"
+      name = "ios7&#x5f00;&#x53d1;ppt">
+      <FileRef
+         location = "group:Lecture 1 Slides.pdf">
+      </FileRef>
+      <FileRef
+         location = "group:Lecture 10 Slides.pdf">
+      </FileRef>
+      <FileRef
+         location = "group:Lecture 11 Slides.pdf">
+      </FileRef>
+      <FileRef
+         location = "group:Lecture 12 Slides.pdf">
+      </FileRef>
+      <FileRef
+         location = "group:Lecture 13 Slides.pdf">
+      </FileRef>
+      <FileRef
+         location = "group:Lecture 14 Slides.pdf">
+      </FileRef>
+      <FileRef
+         location = "group:Lecture 15 Slides.pdf">
+      </FileRef>
+      <FileRef
+         location = "group:Lecture 16 Slides.pdf">
+      </FileRef>
+      <FileRef
+         location = "group:Lecture 18 Slides 1.pdf">
+      </FileRef>
+      <FileRef
+         location = "group:Lecture 18 Slides.pdf">
+      </FileRef>
+      <FileRef
+         location = "group:Lecture 2 Slides.pdf">
+      </FileRef>
+      <FileRef
+         location = "group:Lecture 3 Slides.pdf">
+      </FileRef>
+      <FileRef
+         location = "group:Lecture 4 Slides.pdf">
+      </FileRef>
+      <FileRef
+         location = "group:Lecture 5 Slides.pdf">
+      </FileRef>
+      <FileRef
+         location = "group:Lecture 6 Slides.pdf">
+      </FileRef>
+      <FileRef
+         location = "group:Lecture 7 Slides.pdf">
+      </FileRef>
+      <FileRef
+         location = "group:Lecture 8 Slides.pdf">
+      </FileRef>
+      <FileRef
+         location = "group:Lecture 9 Slides.pdf">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:jingtong/jingtong.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Card.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>
