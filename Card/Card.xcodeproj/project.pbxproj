@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0DBE17B06048A70FFFCE11A1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EDA964ED0E81F95FD181C83E /* libPods.a */; };
+		2F09D5831AF0B3A800F7F55A /* asd.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F09D5821AF0B3A800F7F55A /* asd.m */; };
+		2F09D5861AF0B3B800F7F55A /* wert.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F09D5851AF0B3B800F7F55A /* wert.m */; };
+		2F3537CF1AF8D09400AB98BE /* SKTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3537CE1AF8D09400AB98BE /* SKTableViewController.m */; };
 		2FEB01551AEF855800B90C1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FEB01541AEF855800B90C1C /* main.m */; };
 		2FEB01581AEF855800B90C1C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FEB01571AEF855800B90C1C /* AppDelegate.m */; };
 		2FEB015B1AEF855800B90C1C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FEB015A1AEF855800B90C1C /* ViewController.m */; };
@@ -27,6 +31,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F09D5811AF0B3A800F7F55A /* asd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asd.h; sourceTree = "<group>"; };
+		2F09D5821AF0B3A800F7F55A /* asd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = asd.m; sourceTree = "<group>"; };
+		2F09D5841AF0B3B800F7F55A /* wert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wert.h; sourceTree = "<group>"; };
+		2F09D5851AF0B3B800F7F55A /* wert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wert.m; sourceTree = "<group>"; };
+		2F3537CD1AF8D09400AB98BE /* SKTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTableViewController.h; sourceTree = "<group>"; };
+		2F3537CE1AF8D09400AB98BE /* SKTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTableViewController.m; sourceTree = "<group>"; };
 		2FEB014F1AEF855800B90C1C /* Card.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Card.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FEB01531AEF855800B90C1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2FEB01541AEF855800B90C1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +50,9 @@
 		2FEB01681AEF855800B90C1C /* CardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FEB016D1AEF855800B90C1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2FEB016E1AEF855800B90C1C /* CardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardTests.m; sourceTree = "<group>"; };
+		5C413E442C3C4E99832FB6FF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		895AFC1655839CB3B4AE1B5E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		EDA964ED0E81F95FD181C83E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DBE17B06048A70FFFCE11A1 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +80,8 @@
 				2FEB01511AEF855800B90C1C /* Card */,
 				2FEB016B1AEF855800B90C1C /* CardTests */,
 				2FEB01501AEF855800B90C1C /* Products */,
+				66E0034AC6A6BE6A672C516B /* Pods */,
+				E4CD524904EF75481CBBA752 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,6 +105,12 @@
 				2FEB015F1AEF855800B90C1C /* Images.xcassets */,
 				2FEB01611AEF855800B90C1C /* LaunchScreen.xib */,
 				2FEB01521AEF855800B90C1C /* Supporting Files */,
+				2F09D5811AF0B3A800F7F55A /* asd.h */,
+				2F09D5821AF0B3A800F7F55A /* asd.m */,
+				2F09D5841AF0B3B800F7F55A /* wert.h */,
+				2F09D5851AF0B3B800F7F55A /* wert.m */,
+				2F3537CD1AF8D09400AB98BE /* SKTableViewController.h */,
+				2F3537CE1AF8D09400AB98BE /* SKTableViewController.m */,
 			);
 			path = Card;
 			sourceTree = "<group>";
@@ -119,6 +141,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		66E0034AC6A6BE6A672C516B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C413E442C3C4E99832FB6FF /* Pods.debug.xcconfig */,
+				895AFC1655839CB3B4AE1B5E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E4CD524904EF75481CBBA752 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDA964ED0E81F95FD181C83E /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +165,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2FEB01721AEF855800B90C1C /* Build configuration list for PBXNativeTarget "Card" */;
 			buildPhases = (
+				538FEC71C49AFE07F994607A /* Check Pods Manifest.lock */,
 				2FEB014B1AEF855800B90C1C /* Sources */,
 				2FEB014C1AEF855800B90C1C /* Frameworks */,
 				2FEB014D1AEF855800B90C1C /* Resources */,
+				5A5EA51EC4B3F0D7982D82F7 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,14 +255,50 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		538FEC71C49AFE07F994607A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5A5EA51EC4B3F0D7982D82F7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2FEB014B1AEF855800B90C1C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F09D5861AF0B3B800F7F55A /* wert.m in Sources */,
+				2F09D5831AF0B3A800F7F55A /* asd.m in Sources */,
 				2FEB015B1AEF855800B90C1C /* ViewController.m in Sources */,
 				2FEB01581AEF855800B90C1C /* AppDelegate.m in Sources */,
 				2FEB01551AEF855800B90C1C /* main.m in Sources */,
+				2F3537CF1AF8D09400AB98BE /* SKTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +422,7 @@
 		};
 		2FEB01731AEF855800B90C1C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C413E442C3C4E99832FB6FF /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Card/Info.plist;
@@ -355,6 +433,7 @@
 		};
 		2FEB01741AEF855800B90C1C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 895AFC1655839CB3B4AE1B5E /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Card/Info.plist;
@@ -416,6 +495,7 @@
 				2FEB01741AEF855800B90C1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2FEB01751AEF855800B90C1C /* Build configuration list for PBXNativeTarget "CardTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +504,7 @@
 				2FEB01771AEF855800B90C1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
