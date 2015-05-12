@@ -29,6 +29,22 @@
     //dddeeee
     
     //测试
+    
+    
+    
+    
+    __block int x=10;
+    void (^juuu)(int)=^(int y){
+        x=10+y;
+        NSLog(@"%d %d",x,y);
+    };
+    
+    juuu(32);
+    
+    
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {

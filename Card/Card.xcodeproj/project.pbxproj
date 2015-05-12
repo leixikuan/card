@@ -14,9 +14,7 @@
 		2FEB01551AEF855800B90C1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FEB01541AEF855800B90C1C /* main.m */; };
 		2FEB01581AEF855800B90C1C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FEB01571AEF855800B90C1C /* AppDelegate.m */; };
 		2FEB015B1AEF855800B90C1C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FEB015A1AEF855800B90C1C /* ViewController.m */; };
-		2FEB015E1AEF855800B90C1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FEB015C1AEF855800B90C1C /* Main.storyboard */; };
 		2FEB01601AEF855800B90C1C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FEB015F1AEF855800B90C1C /* Images.xcassets */; };
-		2FEB01631AEF855800B90C1C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FEB01611AEF855800B90C1C /* LaunchScreen.xib */; };
 		2FEB016F1AEF855800B90C1C /* CardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FEB016E1AEF855800B90C1C /* CardTests.m */; };
 /* End PBXBuildFile section */
 
@@ -44,9 +42,7 @@
 		2FEB01571AEF855800B90C1C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2FEB01591AEF855800B90C1C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		2FEB015A1AEF855800B90C1C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		2FEB015D1AEF855800B90C1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2FEB015F1AEF855800B90C1C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		2FEB01621AEF855800B90C1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		2FEB01681AEF855800B90C1C /* CardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FEB016D1AEF855800B90C1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2FEB016E1AEF855800B90C1C /* CardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardTests.m; sourceTree = "<group>"; };
@@ -101,9 +97,7 @@
 				2FEB01571AEF855800B90C1C /* AppDelegate.m */,
 				2FEB01591AEF855800B90C1C /* ViewController.h */,
 				2FEB015A1AEF855800B90C1C /* ViewController.m */,
-				2FEB015C1AEF855800B90C1C /* Main.storyboard */,
 				2FEB015F1AEF855800B90C1C /* Images.xcassets */,
-				2FEB01611AEF855800B90C1C /* LaunchScreen.xib */,
 				2FEB01521AEF855800B90C1C /* Supporting Files */,
 				2F09D5811AF0B3A800F7F55A /* asd.h */,
 				2F09D5821AF0B3A800F7F55A /* asd.m */,
@@ -240,8 +234,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FEB015E1AEF855800B90C1C /* Main.storyboard in Resources */,
-				2FEB01631AEF855800B90C1C /* LaunchScreen.xib in Resources */,
 				2FEB01601AEF855800B90C1C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -319,25 +311,6 @@
 			targetProxy = 2FEB01691AEF855800B90C1C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		2FEB015C1AEF855800B90C1C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2FEB015D1AEF855800B90C1C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		2FEB01611AEF855800B90C1C /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2FEB01621AEF855800B90C1C /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		2FEB01701AEF855800B90C1C /* Debug */ = {
