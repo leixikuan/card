@@ -9,6 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UIActivityIndicatorView *awe;
 
 @end
 
@@ -18,20 +19,13 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    
-    
     //ddd
-    
-    
+    awe.ena
     ///fffff
-    
     
     //dddeeee
     
     //测试
-    
-    
-    
     
     __block int x=10;
     void (^juuu)(int)=^(int y){
@@ -40,11 +34,6 @@
     };
     
     juuu(32);
-    
-    
-    
-    
-    
 }
 
 - (void)didReceiveMemoryWarning {
